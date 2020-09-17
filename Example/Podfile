@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JPGradient_Example' do
+  pod 'JPGradient', :path => '../'
+
+  target 'JPGradient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
