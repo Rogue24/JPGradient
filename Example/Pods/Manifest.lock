@@ -1,0 +1,16 @@
+PODS:
+  - JPGradient (0.1.0)
+
+DEPENDENCIES:
+  - JPGradient (from `../`)
+
+EXTERNAL SOURCES:
+  JPGradient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JPGradient: c7c45ddd67c91bd7db65cb5211e5fd08a6816972
+
+PODFILE CHECKSUM: 28666550f9fb63fd6487e02219811666f3527065
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,22 @@
+{
+  "name": "JPGradient",
+  "version": "0.1.0",
+  "summary": "A short description of JPGradient.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rogue24/JPGradient",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rogue24": "zhoujianping@lizhi.fm"
+  },
+  "source": {
+    "git": "https://github.com/Rogue24/JPGradient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JPGradient/Classes/**/*"
+}
