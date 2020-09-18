@@ -1,6 +1,6 @@
 //
 //  GradientLabel.swift
-//  JPGradientLabel
+//  JPGradient
 //
 //  Created by 周健平 on 2020/9/17.
 //  Copyright © 2020 周健平. All rights reserved.
@@ -9,16 +9,14 @@
 import UIKit
 
 public class GradientLabel: UIView {
-    // MARK: - 成员
-    public let textBgView: GradientView = {
-        let tbView = GradientView()
-            .startPoint(.init(x: 0, y: 0.5))
-            .endPoint(.init(x: 1, y: 0.5))
-        tbView.isUserInteractionEnabled = false
-        return tbView
+    // MARK: - 私有成员
+    fileprivate let gView: GradientView = {
+        let gView = GradientView()
+        gView.isUserInteractionEnabled = false
+        return gView
     }()
     
-    public let textLabel: UILabel = {
+    fileprivate let label: UILabel = {
         let label = UILabel()
         label.textColor = .black
         return label
@@ -28,10 +26,26 @@ public class GradientLabel: UIView {
     public override init(frame: CGRect) {
         super.init(frame: frame)
         isUserInteractionEnabled = false
+        gView.addSubview(label)
+        gView.mask = label
+        addSubview(gView)
+    }
+    
+    public convenience init(frame: CGRect = .zero,
+                            startPoint: CGPoint = .zero,
+                            endPoint: CGPoint = .zero,
+                            locations: [NSNumber]? = nil,
+                            colors: [UIColor]? = nil,
+                            text: String? = nil,
+                            font: UIFont? = nil) {
+        self.init(frame: frame)
         
-        textBgView.addSubview(textLabel)
-        textBgView.mask = textLabel
-        addSubview(textBgView)
+        gView.startPoint(startPoint)
+             .endPoint(endPoint)
+             .locations(locations)
+             .colors(colors)
+        
+        setText(text, font: font)
     }
     
     required init?(coder: NSCoder) {
@@ -40,72 +54,45 @@ public class GradientLabel: UIView {
     
     public override func layoutSubviews() {
         super.layoutSubviews()
-        textBgView.center = CGPoint(x: bounds.midX, y: bounds.midY)
+        gView.center = CGPoint(x: bounds.midX, y: bounds.midY)
+    }
+}
+
+// MARK: - JPGradient
+extension GradientLabel: JPGradient {
+    public var gLayer: CAGradientLayer {
+        get { gView.gLayer }
     }
 }
 
 // MARK: - 对外函数
 public extension GradientLabel {
     @discardableResult
-    func text(_ text: String?, font: UIFont? = nil) -> GradientLabel {
-        textLabel.text = text
-        if let font = font { textLabel.font = font }
+    func setText(_ text: String?, font: UIFont? = nil) -> GradientLabel {
+        label.text = text
+        if let font = font { label.font = font }
         __updateContentLayout()
         return self
     }
+    
     var text: String? {
-        get { textLabel.text }
+        get { label.text }
     }
+    
     var font: UIFont {
-        get { textLabel.font }
-    }
-    
-    @discardableResult
-    func textStartPoint(_ sp: CGPoint) -> GradientLabel {
-        textBgView.startPoint(sp)
-        return self
-    }
-    var textStartPoint: CGPoint {
-        get { textBgView.startPoint }
-    }
-    
-    @discardableResult
-    func textEndPoint(_ ep: CGPoint) -> GradientLabel {
-        textBgView.endPoint(ep)
-        return self
-    }
-    var textEndPoint: CGPoint {
-        get { textBgView.endPoint }
-    }
-
-    @discardableResult
-    func textLocations(_ ls: [NSNumber]?) -> GradientLabel {
-        textBgView.locations(ls)
-        return self
-    }
-    var textLocations: [NSNumber]? {
-        get { textBgView.locations }
-    }
-    
-    @discardableResult
-    func textColors(_ cs: [UIColor]?) -> GradientLabel {
-        textBgView.colors(cs)
-        return self
-    }
-    var textColors: [UIColor]? {
-        get { textBgView.colors }
+        get { label.font }
     }
 }
 
 // MARK: - 私有函数
 extension GradientLabel {
     fileprivate func __updateContentLayout() {
-        textLabel.sizeToFit()
-        let width = textLabel.frame.width
-        let height = textLabel.frame.height
-        textBgView.frame = CGRect(x: (bounds.width - width) * 0.5,
-                                  y: (bounds.height - height) * 0.5,
-                                  width: width,
-                                  height: height)
+        label.sizeToFit()
+        let width = label.frame.width
+        let height = label.frame.height
+        gView.frame = CGRect(x: (bounds.width - width) * 0.5,
+                             y: (bounds.height - height) * 0.5,
+                             width: width,
+                             height: height)
     }
 }

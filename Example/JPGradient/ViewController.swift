@@ -13,35 +13,36 @@ class ViewController: UIViewController {
     
     let gLabel: GradientLabel = {
         let label = GradientLabel(frame: CGRect(x: 50, y: 100, width: 300, height: 100))
-        label.backgroundColor = .black
         return label
     }()
     
     let gBtn: GradientButton = {
         let btn = GradientButton(type: .system)
         btn.frame = CGRect(x: 50, y: 250, width: 300, height: 100)
-        btn.backgroundColor = .green
         btn.setImage(UIImage(named: "denim_jacket")?.withRenderingMode(.alwaysOriginal), for: .normal)
+        btn.imageEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 10)
         btn.addTarget(self, action: #selector(tapBtn), for: .touchUpInside)
         return btn
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        gLabel.text("爽歪歪",
-                    font: .boldSystemFont(ofSize: 70))
-            .textColors([.systemYellow, .systemPurple, .systemTeal])
+        gLabel.setText("爽歪歪", font: .boldSystemFont(ofSize: 70))
+            .startPoint(.zero)
+            .endPoint(.init(x: 1, y: 1))
+            .colors([.systemYellow, .systemPurple, .systemTeal])
         view.addSubview(gLabel)
         
-        gBtn.text("哈哈哈",
-                  font: .boldSystemFont(ofSize: 70),
-                  textColors: [.blue, .yellow, .red])
+        gBtn.setText("我是按钮", font: .boldSystemFont(ofSize: 40))
+            .startPoint(.init(x: 0, y: 0.5))
+            .endPoint(.init(x: 1, y: 0.5))
+            .colors([.blue, .yellow, .red, .green])
         view.addSubview(gBtn)
     }
     
     @objc func tapBtn() {
-        print("why to tap me")
+        print("why tap to me")
     }
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09AFA38C6111D19758ACB6F7BEE47511 /* Pods-JPGradient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B3A7F47D54EBAF7E6618D28752C920 /* Pods-JPGradient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADE68222514CC70006871CA /* JPGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE68212514CC70006871CA /* JPGradient.swift */; };
 		1F1C2A62320D6AF684124F2E6DAF045B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8D90BE29697D47E4461D7F4BE7928B /* GradientView.swift */; };
 		26D4FD9F93CD20BB7FF0FC7A636F5662 /* Pods-JPGradient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A77C969C2FCD5B464F14C28588FB5C8 /* Pods-JPGradient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4990825BDC8CA50385E12BB0B96A2A5D /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B6E1CE985E38AC36930FA876DD7434 /* GradientButton.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		08D9CD27F6D787104829007CAD537594 /* Pods-JPGradient_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPGradient_Tests-Info.plist"; sourceTree = "<group>"; };
+		1ADE68212514CC70006871CA /* JPGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPGradient.swift; sourceTree = "<group>"; };
 		1EFAAABE71BD97D4FA13CEB1FC47FF71 /* Pods-JPGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		26E999E8E54FFFEC06C0026AD327FB8A /* Pods-JPGradient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPGradient_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2784816EDB8A891881051E87B30D5742 /* GradientLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientLabel.swift; path = JPGradient/Classes/GradientLabel.swift; sourceTree = "<group>"; };
@@ -107,9 +109,10 @@
 		24D32BD32433C2D7FAD0EDA52D98ABF3 /* JPGradient */ = {
 			isa = PBXGroup;
 			children = (
-				39B6E1CE985E38AC36930FA876DD7434 /* GradientButton.swift */,
-				2784816EDB8A891881051E87B30D5742 /* GradientLabel.swift */,
+				1ADE68212514CC70006871CA /* JPGradient.swift */,
 				3C8D90BE29697D47E4461D7F4BE7928B /* GradientView.swift */,
+				2784816EDB8A891881051E87B30D5742 /* GradientLabel.swift */,
+				39B6E1CE985E38AC36930FA876DD7434 /* GradientButton.swift */,
 				4D173C757F2F23EB89E5A7004981AF51 /* Pod */,
 				9973DE467F6EFCC4E807A894F62A6CCD /* Support Files */,
 			);
@@ -373,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADE68222514CC70006871CA /* JPGradient.swift in Sources */,
 				4990825BDC8CA50385E12BB0B96A2A5D /* GradientButton.swift in Sources */,
 				790BB14803ED7298E78B2D3A0C448A60 /* GradientLabel.swift in Sources */,
 				1F1C2A62320D6AF684124F2E6DAF045B /* GradientView.swift in Sources */,
