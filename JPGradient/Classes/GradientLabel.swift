@@ -62,7 +62,7 @@ public extension GradientLabel {
     
     @discardableResult
     func textStartPoint(_ sp: CGPoint) -> GradientLabel {
-        _ = textBgView.startPoint(sp)
+        textBgView.startPoint(sp)
         return self
     }
     var textStartPoint: CGPoint {
@@ -71,7 +71,7 @@ public extension GradientLabel {
     
     @discardableResult
     func textEndPoint(_ ep: CGPoint) -> GradientLabel {
-        _ = textBgView.endPoint(ep)
+        textBgView.endPoint(ep)
         return self
     }
     var textEndPoint: CGPoint {
@@ -80,7 +80,7 @@ public extension GradientLabel {
 
     @discardableResult
     func textLocations(_ ls: [NSNumber]?) -> GradientLabel {
-        _ = textBgView.locations(ls)
+        textBgView.locations(ls)
         return self
     }
     var textLocations: [NSNumber]? {
@@ -89,7 +89,7 @@ public extension GradientLabel {
     
     @discardableResult
     func textColors(_ cs: [UIColor]?) -> GradientLabel {
-        _ = textBgView.colors(cs)
+        textBgView.colors(cs)
         return self
     }
     var textColors: [UIColor]? {

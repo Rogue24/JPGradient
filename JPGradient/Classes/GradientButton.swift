@@ -18,7 +18,7 @@ public class GradientButton: UIButton {
     
     // MARK: - 重写的父类函数
     public override func setTitle(_ title: String?, for state: UIControl.State) {
-        _ = gLabel.text(title)
+        gLabel.text(title)
         super.setTitle(title, for: .normal)
     }
     
@@ -41,7 +41,7 @@ public extension GradientButton {
         titleLabel?.font = font
         super.setTitle(text, for: .normal)
         super.setTitleColor(.clear, for: .normal)
-        _ = gLabel.text(text, font: font).textColors(textColors)
+        gLabel.text(text, font: font).textColors(textColors)
         return self
     }
 }
