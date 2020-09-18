@@ -22,7 +22,7 @@ public class GradientLabel: UIView {
         return label
     }()
     
-    // MARK: - 重写的父类函数
+    // MARK: - 构造函数
     public override init(frame: CGRect) {
         super.init(frame: frame)
         isUserInteractionEnabled = false
@@ -52,6 +52,7 @@ public class GradientLabel: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - 重写的父类函数
     public override func layoutSubviews() {
         super.layoutSubviews()
         gView.center = CGPoint(x: bounds.midX, y: bounds.midY)

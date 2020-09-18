@@ -12,9 +12,7 @@ public class GradientButton: UIButton {
     // MARK: - 私有成员
     fileprivate lazy var gLabel: GradientLabel = GradientLabel()
     
-    // MARK: - 重写的父类函数
-    
-    // MARK: - 重写的父类函数
+    // MARK: - 构造函数
     public override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -40,6 +38,7 @@ public class GradientButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - 重写的父类函数
     public override func setTitle(_ title: String?, for state: UIControl.State) {
         gLabel.setText(title)
         super.setTitle(title, for: .normal)

@@ -14,6 +14,7 @@ public class GradientView: UIView {
         CAGradientLayer.self
     }
     
+    // MARK: - 构造函数
     public override init(frame: CGRect) {
         super.init(frame: frame)
     }
