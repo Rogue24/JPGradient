@@ -21,6 +21,7 @@ public extension GradientView {
         get { layer as! CAGradientLayer }
     }
     
+    @discardableResult
     func startPoint(_ sp: CGPoint) -> Self {
         gLayer.startPoint = sp
         return self
@@ -29,6 +30,7 @@ public extension GradientView {
         get { gLayer.startPoint }
     }
     
+    @discardableResult
     func endPoint(_ ep: CGPoint) -> Self {
         gLayer.endPoint = ep
         return self
@@ -37,6 +39,7 @@ public extension GradientView {
         get { gLayer.endPoint }
     }
 
+    @discardableResult
     func locations(_ ls: [NSNumber]?) -> Self {
         gLayer.locations = ls
         return self
@@ -45,6 +48,7 @@ public extension GradientView {
         get { gLayer.locations }
     }
     
+    @discardableResult
     func colors(_ cs: [UIColor]?) -> Self {
         gLayer.colors = __colorUiToCg(cs)
         return self

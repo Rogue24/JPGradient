@@ -36,6 +36,7 @@ public class GradientButton: UIButton {
 
 // MARK: - 对外函数
 public extension GradientButton {
+    @discardableResult
     func text(_ text: String?, font: UIFont? = nil, textColors: [UIColor]? = nil) -> GradientButton {
         titleLabel?.font = font
         super.setTitle(text, for: .normal)

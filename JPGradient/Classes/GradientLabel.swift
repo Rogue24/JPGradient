@@ -46,6 +46,7 @@ public class GradientLabel: UIView {
 
 // MARK: - 对外函数
 public extension GradientLabel {
+    @discardableResult
     func text(_ text: String?, font: UIFont? = nil) -> GradientLabel {
         textLabel.text = text
         if let font = font { textLabel.font = font }
@@ -59,6 +60,7 @@ public extension GradientLabel {
         get { textLabel.font }
     }
     
+    @discardableResult
     func textStartPoint(_ sp: CGPoint) -> GradientLabel {
         _ = textBgView.startPoint(sp)
         return self
@@ -67,6 +69,7 @@ public extension GradientLabel {
         get { textBgView.startPoint }
     }
     
+    @discardableResult
     func textEndPoint(_ ep: CGPoint) -> GradientLabel {
         _ = textBgView.endPoint(ep)
         return self
@@ -75,6 +78,7 @@ public extension GradientLabel {
         get { textBgView.endPoint }
     }
 
+    @discardableResult
     func textLocations(_ ls: [NSNumber]?) -> GradientLabel {
         _ = textBgView.locations(ls)
         return self
@@ -83,6 +87,7 @@ public extension GradientLabel {
         get { textBgView.locations }
     }
     
+    @discardableResult
     func textColors(_ cs: [UIColor]?) -> GradientLabel {
         _ = textBgView.colors(cs)
         return self

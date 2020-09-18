@@ -29,11 +29,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        _ = gLabel.text("爽歪歪", font: .boldSystemFont(ofSize: 70))
+        gLabel.text("爽歪歪",
+                    font: .boldSystemFont(ofSize: 70))
             .textColors([.systemYellow, .systemPurple, .systemTeal])
         view.addSubview(gLabel)
         
-        _ = gBtn.text("哈哈哈", font: .boldSystemFont(ofSize: 70), textColors: [.blue, .yellow, .red])
+        gBtn.text("哈哈哈",
+                  font: .boldSystemFont(ofSize: 70),
+                  textColors: [.blue, .yellow, .red])
         view.addSubview(gBtn)
     }
     

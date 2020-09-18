@@ -11,13 +11,16 @@ override func viewDidLoad() {
     super.viewDidLoad()
     
     let gLabel = GradientLabel(frame: CGRect(x: 50, y: 100, width: 300, height: 100))
-                .text("爽歪歪", font: .boldSystemFont(ofSize: 70))
+                .text("爽歪歪",
+                      font: .boldSystemFont(ofSize: 70))
                 .textColors([.systemYellow, .systemPurple, .systemTeal])
     gLabel.backgroundColor = .black
     view.addSubview(gLabel)
     
     let gBtn = GradientButton(type: .system)
-                .text("哈哈哈", font: .boldSystemFont(ofSize: 70), textColors: [.blue, .yellow, .red])
+                .text("哈哈哈",
+                      font: .boldSystemFont(ofSize: 70),
+                      textColors: [.blue, .yellow, .red])
     gBtn.frame = CGRect(x: 50, y: 250, width: 300, height: 100)
     gBtn.backgroundColor = .green
     gBtn.setImage(UIImage(named: "denim_jacket")?.withRenderingMode(.alwaysOriginal), for: .normal)
