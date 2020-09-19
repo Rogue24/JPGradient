@@ -44,9 +44,9 @@
 		648B48158ABDE22CE5BD995E /* Pods_JPGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPGradient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73DDAF2EE1746142FFD03BE0 /* Pods-JPGradient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPGradient_Tests.release.xcconfig"; path = "Target Support Files/Pods-JPGradient_Tests/Pods-JPGradient_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8476F3B205F38D8EB21AAF85 /* Pods-JPGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPGradient_Example.debug.xcconfig"; path = "Target Support Files/Pods-JPGradient_Example/Pods-JPGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BAD9B1D01C3CAC42213C1245 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D88CBF261F6E601A046A70C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FE423145DB7A22821DFF7863 /* JPGradient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JPGradient.podspec; path = ../JPGradient.podspec; sourceTree = "<group>"; };
+		BAD9B1D01C3CAC42213C1245 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D88CBF261F6E601A046A70C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FE423145DB7A22821DFF7863 /* JPGradient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JPGradient.podspec; path = ../JPGradient.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				241DEBB85637BD7D7719FDE7 /* Pods-JPGradient_Tests.debug.xcconfig */,
 				73DDAF2EE1746142FFD03BE0 /* Pods-JPGradient_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
