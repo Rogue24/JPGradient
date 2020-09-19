@@ -39,7 +39,5 @@ public class GradientView: UIView {
 
 // MARK: - JPGradient
 extension GradientView: JPGradient {
-    public var gLayer: CAGradientLayer {
-        get { layer as! CAGradientLayer }
-    }
+    public var gLayer: CAGradientLayer { layer as! CAGradientLayer }
 }

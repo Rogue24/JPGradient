@@ -58,9 +58,7 @@ public class GradientButton: UIButton {
 
 // MARK: - JPGradient
 extension GradientButton: JPGradient {
-    public var gLayer: CAGradientLayer {
-        get { gLabel.gLayer }
-    }
+    public var gLayer: CAGradientLayer { gLabel.gLayer }
 }
 
 // MARK: - 对外函数

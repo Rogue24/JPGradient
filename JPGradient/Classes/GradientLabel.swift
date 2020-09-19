@@ -61,9 +61,7 @@ public class GradientLabel: UIView {
 
 // MARK: - JPGradient
 extension GradientLabel: JPGradient {
-    public var gLayer: CAGradientLayer {
-        get { gView.gLayer }
-    }
+    public var gLayer: CAGradientLayer { gView.gLayer }
 }
 
 // MARK: - 对外函数
