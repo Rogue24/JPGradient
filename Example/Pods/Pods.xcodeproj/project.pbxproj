@@ -7,41 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09AFA38C6111D19758ACB6F7BEE47511 /* Pods-JPGradient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B3A7F47D54EBAF7E6618D28752C920 /* Pods-JPGradient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ADE68222514CC70006871CA /* JPGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE68212514CC70006871CA /* JPGradient.swift */; };
 		1F1C2A62320D6AF684124F2E6DAF045B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8D90BE29697D47E4461D7F4BE7928B /* GradientView.swift */; };
-		26D4FD9F93CD20BB7FF0FC7A636F5662 /* Pods-JPGradient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A77C969C2FCD5B464F14C28588FB5C8 /* Pods-JPGradient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4990825BDC8CA50385E12BB0B96A2A5D /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B6E1CE985E38AC36930FA876DD7434 /* GradientButton.swift */; };
+		4A58B73BF131F62D44588D711E27D4FE /* Pods-JPGradient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A77C969C2FCD5B464F14C28588FB5C8 /* Pods-JPGradient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EDB685AB1A81836E5D9B03BBD5CE4F6 /* Pods-JPGradient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D5AB745F7FF66AC13E96EBA243BD1A /* Pods-JPGradient_Tests-dummy.m */; };
 		790BB14803ED7298E78B2D3A0C448A60 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2784816EDB8A891881051E87B30D5742 /* GradientLabel.swift */; };
-		7F326E59611BC5E2CB9F0B793A035D4A /* Pods-JPGradient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D5AB745F7FF66AC13E96EBA243BD1A /* Pods-JPGradient_Tests-dummy.m */; };
 		8DEF904032E3F12BCB9BCC9B8BF2A426 /* JPGradient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5780087A1EFC0782E8C7608CBBEFC4D3 /* JPGradient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1FD7AA57ABB49BA5CED7C4E9BC59FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B0186F265202B128750E6255071D8ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C07AB578F1DE30F5A7EAE3C77B5FD7C8 /* Pods-JPGradient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C144A8D044D0D9A4F3F326E77F7E143 /* Pods-JPGradient_Example-dummy.m */; };
 		E5B5920FE79F74F2F95255200EB7E7E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E7AC2B3DE8B8F9B473FB9AE109F7F4CC /* Pods-JPGradient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C144A8D044D0D9A4F3F326E77F7E143 /* Pods-JPGradient_Example-dummy.m */; };
+		EC3AF3898719913B0FC952C97A87EED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F061F00B6C4CE220BDF10F02286FAFE6 /* Pods-JPGradient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B3A7F47D54EBAF7E6618D28752C920 /* Pods-JPGradient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7A8149590734C66E0B3F7167A4BE09E /* JPGradient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B74098CE2C0258EC89FE35DB59C7A945 /* JPGradient-dummy.m */; };
+		FDEFB2443ED4F918C1D8E8DF63E3AD4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		368A3317CD99BA2AD58E8E69FA3273FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6133B79E59CACCBA40C0B1C4E72B6B99;
-			remoteInfo = JPGradient;
-		};
-		5C876A7EF668DEBAA5D589A57FFD90C5 /* PBXContainerItemProxy */ = {
+		0558FDCF25D138B533AD1A6E1B6D70F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 561A80341CCDBA6A4E2B2B68C06A7933;
 			remoteInfo = "Pods-JPGradient_Example";
 		};
+		CD301A940B8CC3A6FB499EFF8F9B0C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6133B79E59CACCBA40C0B1C4E72B6B99;
+			remoteInfo = JPGradient;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		08D9CD27F6D787104829007CAD537594 /* Pods-JPGradient_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPGradient_Tests-Info.plist"; sourceTree = "<group>"; };
-		1ADE68212514CC70006871CA /* JPGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPGradient.swift; sourceTree = "<group>"; };
 		1EFAAABE71BD97D4FA13CEB1FC47FF71 /* Pods-JPGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		26E999E8E54FFFEC06C0026AD327FB8A /* Pods-JPGradient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPGradient_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2784816EDB8A891881051E87B30D5742 /* GradientLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientLabel.swift; path = JPGradient/Classes/GradientLabel.swift; sourceTree = "<group>"; };
@@ -52,26 +50,26 @@
 		39B6E1CE985E38AC36930FA876DD7434 /* GradientButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientButton.swift; path = JPGradient/Classes/GradientButton.swift; sourceTree = "<group>"; };
 		3C8D90BE29697D47E4461D7F4BE7928B /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = JPGradient/Classes/GradientView.swift; sourceTree = "<group>"; };
 		3FF55993E1E482C2D80C730FB6430B3A /* JPGradient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JPGradient-Info.plist"; sourceTree = "<group>"; };
-		47310CDD8317065ABD55A45C38FC6DD2 /* Pods_JPGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPGradient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47310CDD8317065ABD55A45C38FC6DD2 /* Pods_JPGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JPGradient_Example.framework; path = "Pods-JPGradient_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D5AB745F7FF66AC13E96EBA243BD1A /* Pods-JPGradient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPGradient_Tests-dummy.m"; sourceTree = "<group>"; };
-		51C5A74BEC98747F6713CAF373296439 /* Pods_JPGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPGradient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C5A74BEC98747F6713CAF373296439 /* Pods_JPGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JPGradient_Tests.framework; path = "Pods-JPGradient_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5780087A1EFC0782E8C7608CBBEFC4D3 /* JPGradient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPGradient-umbrella.h"; sourceTree = "<group>"; };
 		5A77C969C2FCD5B464F14C28588FB5C8 /* Pods-JPGradient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JPGradient_Tests-umbrella.h"; sourceTree = "<group>"; };
 		616E6E988688F365A309E48DDFB193DD /* Pods-JPGradient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JPGradient_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73EF65BD62BD9491EF35A61257A6816A /* Pods-JPGradient_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPGradient_Example-Info.plist"; sourceTree = "<group>"; };
-		8A7CE64E38653A8F509A5E465C55E6B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8A7CE64E38653A8F509A5E465C55E6B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		905F1A51EFEF244E164FEF4D27C0E3E8 /* Pods-JPGradient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JPGradient_Tests.modulemap"; sourceTree = "<group>"; };
-		9B8A5D3156358D359BADFC1341F426E1 /* JPGradient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JPGradient.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9B8A5D3156358D359BADFC1341F426E1 /* JPGradient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JPGradient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C144A8D044D0D9A4F3F326E77F7E143 /* Pods-JPGradient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JPGradient_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6239843F9F412B998537EB0B49A302 /* JPGradient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPGradient.release.xcconfig; sourceTree = "<group>"; };
 		A4CF22F7F326C305659D9AFE991849B5 /* Pods-JPGradient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPGradient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A64F47489003F065819E5AC2C602C62C /* Pods-JPGradient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPGradient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B74098CE2C0258EC89FE35DB59C7A945 /* JPGradient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPGradient-dummy.m"; sourceTree = "<group>"; };
 		BDA366B30EDCC78CE2698DB8BF9AE5E3 /* Pods-JPGradient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JPGradient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C718C18A37D1B1933F31DE3A57A9E118 /* Pods-JPGradient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JPGradient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC36B559544519C414B9C2B3D0D9DD65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D76F7761C30A2FDB6F346EFC66364EA6 /* JPGradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC36B559544519C414B9C2B3D0D9DD65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D76F7761C30A2FDB6F346EFC66364EA6 /* JPGradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JPGradient.framework; path = JPGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA0ABCE3229CED835D2E4A00A598D8F /* JPGradient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPGradient.debug.xcconfig; sourceTree = "<group>"; };
 		E3878FE034535110B4DCC09C229F43AB /* Pods-JPGradient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JPGradient_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ECC38B771A158EA906419A0C1FE4A47B /* JPGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPGradient-prefix.pch"; sourceTree = "<group>"; };
@@ -79,11 +77,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		67A7AE58A0940FB53FEEA288226906B0 /* Frameworks */ = {
+		52678359F6AF655989EC2D2CB91D96DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0186F265202B128750E6255071D8ADD /* Foundation.framework in Frameworks */,
+				FDEFB2443ED4F918C1D8E8DF63E3AD4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6100AF5C0153C2AB8141BEA9EEDC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3AF3898719913B0FC952C97A87EED6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,24 +101,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDC05E5D22A2E9AEA86AF0964D4FAC07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1FD7AA57ABB49BA5CED7C4E9BC59FEE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		24D32BD32433C2D7FAD0EDA52D98ABF3 /* JPGradient */ = {
 			isa = PBXGroup;
 			children = (
-				1ADE68212514CC70006871CA /* JPGradient.swift */,
-				3C8D90BE29697D47E4461D7F4BE7928B /* GradientView.swift */,
-				2784816EDB8A891881051E87B30D5742 /* GradientLabel.swift */,
 				39B6E1CE985E38AC36930FA876DD7434 /* GradientButton.swift */,
+				2784816EDB8A891881051E87B30D5742 /* GradientLabel.swift */,
+				3C8D90BE29697D47E4461D7F4BE7928B /* GradientView.swift */,
 				4D173C757F2F23EB89E5A7004981AF51 /* Pod */,
 				9973DE467F6EFCC4E807A894F62A6CCD /* Support Files */,
 			);
@@ -235,19 +232,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1257E4D95F55633FDC805098DDF74371 /* Headers */ = {
+		70F712CF5E5CD04B2C46CE5E6E982B7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09AFA38C6111D19758ACB6F7BEE47511 /* Pods-JPGradient_Example-umbrella.h in Headers */,
+				F061F00B6C4CE220BDF10F02286FAFE6 /* Pods-JPGradient_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3A2A6C4FDD533F0570AB4502792A82D /* Headers */ = {
+		D95F6610F2C71981A55F12E78F81CAE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D4FD9F93CD20BB7FF0FC7A636F5662 /* Pods-JPGradient_Tests-umbrella.h in Headers */,
+				4A58B73BF131F62D44588D711E27D4FE /* Pods-JPGradient_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,17 +261,17 @@
 /* Begin PBXNativeTarget section */
 		4DDFC04272B142ED1F1766C035C989AD /* Pods-JPGradient_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03DC6A861AB74D1015CED60A0528BE4E /* Build configuration list for PBXNativeTarget "Pods-JPGradient_Tests" */;
+			buildConfigurationList = BEA90CE10537A8182A8BB149177FE879 /* Build configuration list for PBXNativeTarget "Pods-JPGradient_Tests" */;
 			buildPhases = (
-				A3A2A6C4FDD533F0570AB4502792A82D /* Headers */,
-				EE7789D4A1961AFBBFB8D5E2E1E55BD5 /* Sources */,
-				BDC05E5D22A2E9AEA86AF0964D4FAC07 /* Frameworks */,
-				DC58EF484B366E82EA19510DB00D9D19 /* Resources */,
+				D95F6610F2C71981A55F12E78F81CAE4 /* Headers */,
+				C9E0144FBB8410E99D74217180A1E617 /* Sources */,
+				52678359F6AF655989EC2D2CB91D96DD /* Frameworks */,
+				2B7CCAE79759282D14EA920EB33C6E77 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				829C81DA7974AC6C06C6ADD22F13CF64 /* PBXTargetDependency */,
+				E087BE88E097659E29242EC3205545F7 /* PBXTargetDependency */,
 			);
 			name = "Pods-JPGradient_Tests";
 			productName = "Pods-JPGradient_Tests";
@@ -283,17 +280,17 @@
 		};
 		561A80341CCDBA6A4E2B2B68C06A7933 /* Pods-JPGradient_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 399F9E7CA853DF12ACE335B3CF4FCDFD /* Build configuration list for PBXNativeTarget "Pods-JPGradient_Example" */;
+			buildConfigurationList = E9ACA7CE0E023A1909C8DC0FA2240563 /* Build configuration list for PBXNativeTarget "Pods-JPGradient_Example" */;
 			buildPhases = (
-				1257E4D95F55633FDC805098DDF74371 /* Headers */,
-				C3E4EF4700D99670BF417DAB1954BBDD /* Sources */,
-				67A7AE58A0940FB53FEEA288226906B0 /* Frameworks */,
-				E2F95F457B8F7DABCA41DA58DC75B35C /* Resources */,
+				70F712CF5E5CD04B2C46CE5E6E982B7F /* Headers */,
+				5F4FBD28550215B25D4202A00E64634E /* Sources */,
+				9E6100AF5C0153C2AB8141BEA9EEDC18 /* Frameworks */,
+				A64D3A4841B3C3E231A1077A15642E1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				996FB42BEF7C63903C79B6793E43603C /* PBXTargetDependency */,
+				EA3538B6B6E4B6758F6DDA280EDE544A /* PBXTargetDependency */,
 			);
 			name = "Pods-JPGradient_Example";
 			productName = "Pods-JPGradient_Example";
@@ -348,21 +345,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B7CCAE79759282D14EA920EB33C6E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64D3A4841B3C3E231A1077A15642E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CA0400DA5DFC2EA5ACC3A29DA33D30B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC58EF484B366E82EA19510DB00D9D19 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2F95F457B8F7DABCA41DA58DC75B35C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADE68222514CC70006871CA /* JPGradient.swift in Sources */,
 				4990825BDC8CA50385E12BB0B96A2A5D /* GradientButton.swift in Sources */,
 				790BB14803ED7298E78B2D3A0C448A60 /* GradientLabel.swift in Sources */,
 				1F1C2A62320D6AF684124F2E6DAF045B /* GradientView.swift in Sources */,
@@ -384,41 +380,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3E4EF4700D99670BF417DAB1954BBDD /* Sources */ = {
+		5F4FBD28550215B25D4202A00E64634E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07AB578F1DE30F5A7EAE3C77B5FD7C8 /* Pods-JPGradient_Example-dummy.m in Sources */,
+				E7AC2B3DE8B8F9B473FB9AE109F7F4CC /* Pods-JPGradient_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE7789D4A1961AFBBFB8D5E2E1E55BD5 /* Sources */ = {
+		C9E0144FBB8410E99D74217180A1E617 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F326E59611BC5E2CB9F0B793A035D4A /* Pods-JPGradient_Tests-dummy.m in Sources */,
+				6EDB685AB1A81836E5D9B03BBD5CE4F6 /* Pods-JPGradient_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		829C81DA7974AC6C06C6ADD22F13CF64 /* PBXTargetDependency */ = {
+		E087BE88E097659E29242EC3205545F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JPGradient_Example";
 			target = 561A80341CCDBA6A4E2B2B68C06A7933 /* Pods-JPGradient_Example */;
-			targetProxy = 5C876A7EF668DEBAA5D589A57FFD90C5 /* PBXContainerItemProxy */;
+			targetProxy = 0558FDCF25D138B533AD1A6E1B6D70F2 /* PBXContainerItemProxy */;
 		};
-		996FB42BEF7C63903C79B6793E43603C /* PBXTargetDependency */ = {
+		EA3538B6B6E4B6758F6DDA280EDE544A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JPGradient;
 			target = 6133B79E59CACCBA40C0B1C4E72B6B99 /* JPGradient */;
-			targetProxy = 368A3317CD99BA2AD58E8E69FA3273FF /* PBXContainerItemProxy */;
+			targetProxy = CD301A940B8CC3A6FB499EFF8F9B0C91 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		19F8316DFF2D7DAC505C7FAC7DF69054 /* Debug */ = {
+		5C882B47E98A7537D4294CBCC01D36E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EFAAABE71BD97D4FA13CEB1FC47FF71 /* Pods-JPGradient_Example.debug.xcconfig */;
 			buildSettings = {
@@ -451,74 +447,7 @@
 			};
 			name = Debug;
 		};
-		78024E94A1A365A3C485B37549C74DC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4CF22F7F326C305659D9AFE991849B5 /* Pods-JPGradient_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JPGradient_Tests/Pods-JPGradient_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JPGradient_Tests/Pods-JPGradient_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7DE744889283DD41C11239ACFA18D520 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3878FE034535110B4DCC09C229F43AB /* Pods-JPGradient_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JPGradient_Example/Pods-JPGradient_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JPGradient_Example/Pods-JPGradient_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		81AB614FE5CF9597F5D569662F995E14 /* Release */ = {
+		9ED620E5898DDFF21FE32E9D1EE9E669 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 26E999E8E54FFFEC06C0026AD327FB8A /* Pods-JPGradient_Tests.release.xcconfig */;
 			buildSettings = {
@@ -605,7 +534,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -707,6 +637,73 @@
 			};
 			name = Debug;
 		};
+		C30F091FDAF4D47394AC1914A02C5EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CF22F7F326C305659D9AFE991849B5 /* Pods-JPGradient_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JPGradient_Tests/Pods-JPGradient_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPGradient_Tests/Pods-JPGradient_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9EC3FB931BD7B04903609C37BAD604E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3878FE034535110B4DCC09C229F43AB /* Pods-JPGradient_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JPGradient_Example/Pods-JPGradient_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JPGradient_Example/Pods-JPGradient_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E62262B4D8C33CBC2521521EFBCFF071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAA0ABCE3229CED835D2E4A00A598D8F /* JPGradient.debug.xcconfig */;
@@ -741,15 +738,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03DC6A861AB74D1015CED60A0528BE4E /* Build configuration list for PBXNativeTarget "Pods-JPGradient_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78024E94A1A365A3C485B37549C74DC3 /* Debug */,
-				81AB614FE5CF9597F5D569662F995E14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0F034A4FC8460646922CCA2C18783CD6 /* Build configuration list for PBXNativeTarget "JPGradient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -759,20 +747,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		399F9E7CA853DF12ACE335B3CF4FCDFD /* Build configuration list for PBXNativeTarget "Pods-JPGradient_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				19F8316DFF2D7DAC505C7FAC7DF69054 /* Debug */,
-				7DE744889283DD41C11239ACFA18D520 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA90CE10537A8182A8BB149177FE879 /* Build configuration list for PBXNativeTarget "Pods-JPGradient_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30F091FDAF4D47394AC1914A02C5EB9 /* Debug */,
+				9ED620E5898DDFF21FE32E9D1EE9E669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9ACA7CE0E023A1909C8DC0FA2240563 /* Build configuration list for PBXNativeTarget "Pods-JPGradient_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C882B47E98A7537D4294CBCC01D36E0 /* Debug */,
+				D9EC3FB931BD7B04903609C37BAD604E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
