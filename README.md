@@ -14,7 +14,7 @@ let gLabel: GradientLabel = {
 
 let gBtn: GradientButton = {
     let btn = GradientButton(type: .system)
-    btn.frame = CGRect(x: 50, y: 250, width: 300, height: 100)
+    btn.frame = CGRect(x: 50, y: 200, width: 300, height: 100)
     btn.setImage(UIImage(named: "denim_jacket")?.withRenderingMode(.alwaysOriginal), for: .normal)
     btn.imageEdgeInsets = .init(top: 0, left: 0, bottom: 0, right: 10)
     return btn

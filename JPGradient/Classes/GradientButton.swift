@@ -66,9 +66,9 @@ extension GradientButton: JPGradient {
 // MARK: - 对外函数
 public extension GradientButton {
     @discardableResult
-    func setText(_ text: String?, font: UIFont? = nil) -> GradientButton {
+    func setText(_ text: String? = nil, font: UIFont? = nil) -> GradientButton {
         gLabel.setText(text, font: font)
-        titleLabel?.font = font
+        if let font = font, let titleLabel = titleLabel { titleLabel.font = font }
         super.setTitle(text, for: .normal)
         super.setTitleColor(.clear, for: .normal)
         setNeedsLayout()

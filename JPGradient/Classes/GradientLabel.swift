@@ -69,7 +69,7 @@ extension GradientLabel: JPGradient {
 // MARK: - 对外函数
 public extension GradientLabel {
     @discardableResult
-    func setText(_ text: String?, font: UIFont? = nil) -> GradientLabel {
+    func setText(_ text: String? = nil, font: UIFont? = nil) -> GradientLabel {
         label.text = text
         if let font = font { label.font = font }
         __updateContentLayout()
@@ -77,10 +77,12 @@ public extension GradientLabel {
     }
     
     var text: String? {
+        set { setText(newValue) }
         get { label.text }
     }
     
     var font: UIFont {
+        set { setText(label.text, font: newValue) }
         get { label.font }
     }
 }

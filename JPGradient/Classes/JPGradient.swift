@@ -18,6 +18,7 @@ public extension JPGradient {
         return self
     }
     var startPoint: CGPoint {
+        set { gLayer.startPoint = newValue }
         get { gLayer.startPoint }
     }
     
@@ -27,6 +28,7 @@ public extension JPGradient {
         return self
     }
     var endPoint: CGPoint {
+        set { gLayer.endPoint = newValue }
         get { gLayer.endPoint }
     }
 
@@ -36,24 +38,26 @@ public extension JPGradient {
         return self
     }
     var locations: [NSNumber]? {
+        set { gLayer.locations = newValue }
         get { gLayer.locations }
     }
     
     @discardableResult
     func colors(_ uiColors: [UIColor]?) -> Self {
-        guard let colors = uiColors else {
-            gLayer.colors = nil
-            return self
-        }
-        if colors.count == 1 {
-            let cgColor = colors.first!.cgColor
-            gLayer.colors = [cgColor, cgColor]
-        } else {
-            gLayer.colors = colors.map { $0.cgColor }
-        }
+        gLayer.colors = Self.uiColors2cgColors(uiColors)
         return self
     }
     var colors: [UIColor]? {
+        set { gLayer.colors = Self.uiColors2cgColors(newValue) }
         get { gLayer.colors?.map { UIColor(cgColor: $0 as! CGColor) } }
+    }
+    
+    private static func uiColors2cgColors(_ uiColors: [UIColor]?) -> [Any]? {
+        guard let colors = uiColors else { return nil }
+        if colors.count == 1 {
+            let cgColor = colors.first!.cgColor
+            return [cgColor, cgColor]
+        }
+        return colors.map { $0.cgColor }
     }
 }
