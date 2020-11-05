@@ -30,14 +30,14 @@ class ViewController: UIViewController {
         
         gLabel.setText("爽歪歪", font: .boldSystemFont(ofSize: 70))
             .startPoint(.zero)
-            .endPoint(.init(x: 1, y: 1))
-            .colors([.systemYellow, .systemPurple, .systemTeal])
+            .endPoint(1, 1)
+            .colors(.systemYellow, .systemPurple, .systemTeal)
         view.addSubview(gLabel)
         
         gBtn.setText("我是按钮", font: .boldSystemFont(ofSize: 40))
-            .startPoint(.init(x: 0, y: 0.5))
-            .endPoint(.init(x: 1, y: 0.5))
-            .colors([.blue, .yellow, .red, .green])
+            .startPoint(0, 0.5)
+            .endPoint(1, 0.5)
+            .colors(.blue, .yellow, .red, .green)
         view.addSubview(gBtn)
     }
     
